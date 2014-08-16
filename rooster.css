@@ -1,0 +1,61 @@
+/*
+ * Filename:      rooster.css
+ * Created For:   CS_120 - Summer 2010
+ */
+
+html     { height: 100%; }
+h1       { text-align: center; color: DF7401; /*darker yellow*/ font-variant:small-caps;  }
+h2       { text-indent: 1.25em; color: 327F17; /*green*/ }
+h3       { color: black; }
+h4       { color: black; margin-top: 0px; margin-bottom: 0px; }
+
+a        { color: 00FF00; /*neon green*/ }
+body     { text-indent: 0.75em; background-color: rgb(61,38,12); /*brown*/ color: FFAA00; /*yellow*/ height: 100%;}
+
+strong   { font-variant:small-caps; }
+
+img	   { height: 15em; padding: 1.1em; }/* was 200px */
+#bigimg  { height: 25em; }
+
+#out     { width: 100%; }/* NOW UNUSED */
+#container  {  width: 100%; min-height: 100%; /* use min-height not height, to prevent overlap */
+               padding-bottom: 2.55em; /* must be same height as footer */
+            }
+#tSide   { position: absolute; }
+#lSide   { float: left; width: 17%; height: 100%; } /* 17% == 10em/60em */ 
+#rSide   { float: right; width: 80%; height: 100%; padding-left: 2%;} /* 83% == 50em/60em */
+#padp	   { padding-bottom: 11em; }
+
+#imp     { text-align:center; font-weight:bold; font-size: larger; letter-spacing: 0.33em; }
+#subtl   { text-decoration: none; } /*NO LONGER USED?*/
+#danger  { color: rgb(200,55,0); /*reddish*/ }
+#padme   { padding: 2em; }
+
+#youtube_vid { text-align: center; }
+
+#foot    { height: 2.55em; padding-top: -2.55em; /* negative value of height */ }
+
+#footer-spacer { height: 15em;/*MIN*/ }/* PAGE SPECIFIC*/
+
+#comb0	{ float: right; }/*TODO:rename on all pgs*/
+#comb1	{ float: left; }/*TODO:rename on all pgs*/
+#middiv  { text-align: center; }/* TODO:change to <center> tags? */
+
+table caption { font-size: larger; color: rgb(200,55,0); /*reddish*/ font-weight: bold; letter-spacing: 0.5em; }
+
+table.txt   { margin-left: 4.20em; }
+table.image {  }
+table.image td.caption { text-align: center;  }
+
+#title_image { float: left; height: 10em; border: 1.5px solid silver; }
+#title_page { height: 95%; border: 0;}
+
+#clk 	{ float: left; margin-left: 1% }/* took from rSide */
+
+#welcome     { font-size: 3.5em;}
+#tail_dir_pic { float: right; height: 10em; }
+
+/*ON PAGE: branch.htm*/
+#pith    { float: left; width: 14em; height: 7em; }
+#branch_parts { float: right; height: 7.5em; }
+

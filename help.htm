@@ -1,0 +1,195 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">-->
+<html>
+
+<head>
+<!--
+      Whittling A Rooster: Everything You Need To Know
+
+         Created For:            CS_120 - Summer 2010
+
+         Filename:               help.htm
+         Supporting Files:       
+-->
+   <meta name="author" content="David Bath, Roberto Vergaray, Kenneth Halligan" />
+   <meta name="description" content="Whittling A Rooster: Get Help" />
+   <meta name="keywords" content="whittling, rooster, carving, help" />
+
+	<title>Help Form</title>
+	<link href="rooster.css" type="text/css" rel="stylesheet" />
+	<link href="forms.css" type="text/css" rel="stylesheet" />
+   <style type="text/css">#footer-spacer { height: 18em; }</style><!--PAGE SPECIFIC-->
+</head>
+<body>
+<div id="tSide"></div><!--For Opera footer compatibility <http://www.electrictoolbox.com/html-css-footer/> -->
+
+<div id="container">
+
+   <div id="lSide">
+
+   <a href="title.htm"><img id="title_image" alt="Title Banner Image" src="http://i934.photobucket.com/albums/ad189/moonsdad/CS_120/_TMP2.png" /></a>
+<!--
+   <img id="title_image" alt="Title Banner Image" src="_TMP2.png" usemap="#titlmap" />
+
+   <map name="titlmap" name="titlmap">
+      <area shape="rect" coords="0,0,1549,480" href="carve2_comb.htm" alt="The Comb" title="The Comb" />
+      <area shape="rect" coords="0,481,575,559" href="carve2_beak.htm" alt="The Beak" title="The Beak" />
+      <area shape="rect" coords="0,559,575,818" href="carve2_watt.htm" alt="The Wattle" title="The Wattle" />
+      <area shape="rect" coords="1,817,573,1361" href="carve1_neck.htm" alt="The Neck" title="The Neck" />
+      <area shape="rect" coords="578,482,1166,1065" href="carve1_neck.htm" alt="The Neck" title="The Neck" />
+      <area shape="rect" coords="1549,0,3534,1790" href="carve3_tail.htm" alt="The Tail" title="The Tail" />
+      <area shape="rect" coords="1359,543,1547,1035" href="carve3_tail.htm" alt="The Tail" title="The Tail" />
+      <area shape="rect" coords="228,1724,1546,2541" href="carve0_legs.htm" alt="The Legs" title="The Legs" />
+   </map>
+-->
+
+   <!--The Menu -->
+   <ul><li><h3>The Knife</h3></li>
+       <ul><li><a href="knife0.htm">Blade Selection</a></li>
+           <ul><li><a href="knife0.htm#care">Basic Care</a></li></ul>
+           <li><a href="sharp0.htm" id="subtl" ><h4>Sharpening</h4><a></li>
+               <ul><li><a href="sharp_stone.htm">Stone</a></li>
+                   <li><a href="http://www.ehow.com/how_4531091_use-sharpening-rod.html" target="tab">Rod</a></li><!--external link-->
+                   <li><a href="sharp_ceramic.htm">Ceramic</a></li>
+                   <ul><li><a href="sharp_ceramic.htm#mug">Mug</a></li></ul>
+               </ul><!--end sharpening list -->
+           <li><a href="knife1.htm">Handling</a></li>
+       </ul><!--end knife list -->
+       <li><h3>The Branch</h3></li> 
+       <ul><li><a href="branch.htm">Branch Selection</a></li>
+           <li><a href="branch.htm#pith">Pith Test</a></li>
+       </ul>
+      <li><h3>Carving:</h3></li>
+      <ol><li><a href="carve0_legs.htm">The Legs</a></li>
+          <li><a href="carve1_neck.htm">The Neck</a></li>
+          <li><a href="carve2_comb.htm">The Comb</a></li>
+          <li><a href="carve2_beak.htm">The Beak</a></li>
+          <li><a href="carve2_watt.htm">The Wattle</a></li>
+          <li><a href="carve3_tail.htm">The Tail</a></li>
+          <ul><li><a href="carve3_tail.htm#fea">Curling The Feathers</a></li>
+          </ul><!--end tail list-->
+      </ol><!--end carving list--><hr />
+      <li><a href="help.htm">NEED HELP?</a></li>
+   </ul><!--end of nested lists-->
+
+   </div><!-- end left side -->
+
+   <div id="rSide">
+   <hr /><h1>Whittling a Rooster Help Form</h1><hr />
+
+	<div id="help_form">
+      <form name="help_form" id="help_form">
+	
+		<fieldset id="Contact Information">
+			<legend>Contact Information</legend>
+			<label class="blockLabel">
+			   First Name <span>*</span>
+			   <input type="text" id="firstName" name="firstName" accesskey="i" />
+			</label>
+			
+			<label class="blockLabel">
+			   Last Name
+			   <input type="text" id="lastName" name="lastName" />
+			</label>
+
+         <label class="blockLabel">
+				E-Mail<span>*</span>
+				<input type="text" id="email" name="email" />
+			</label>
+			
+			<label class="blockLabel">
+				Phone
+				<input type="text" id="phone" name="phone" />
+			</label>
+
+			<label class="blockLabel">
+				Street Address
+				<input type="text" id="street" name="street" />
+			</label>
+			
+			<label class="indentLabel">
+				City
+				<input type="text" id="city" name="city" />
+			</label>
+			
+			<label>
+				State
+				<input type="text" id="state" name="state" maxlength="2" value="WA" />
+			</label>
+
+			<label>
+				ZIP
+				<input type="text" id="Zip" name="Zip" maxlength="10" />
+			</label>
+			
+
+	   <fieldset id="addressOptions">
+         <legend>Address Of</legend>
+		   <label for="homeType">Home</label>
+		      <input type="radio" id="homeType" name="addressType" value="home" />
+		   <label for="busType">Business</label>
+		      <input type="radio" id="busType" name="addressType" value="business" />
+		</fieldset><!-- end addressOptions -->
+
+		</fieldset><!-- end Contact Information -->
+		
+		
+		<fieldset id="feedback">
+			<legend>Questions & Comments</legend>
+
+			Choose one:<span>*</span><br />
+			<label >
+				<input type="checkbox" id="voluntee_q" name="voluntee_q" />
+				I have a question about a page.
+         </label>
+         <br />
+         <label >
+            <input type="checkbox" id="voluntee_c" name="voluntee_c" />
+				I have a comment about a page.
+			</label>
+			
+			<label class="blockLabel">
+				Which Topic?<span>*</span>
+				<select id="selpage" name="selpage">
+					<option value="01BladeSel">Blade Selection</option>
+					<option value="02BBlade">Basic Blade Care</option>
+					<option value="03Sharpening">Sharpening</option>
+					<option value="04Handling">Cuts/Handling</option>
+					<option value="05BranchSel">BranchSelection</option>
+					<option value="06Clegs">Carving the Legs</option>
+					<option value="07Cneck">Carving the Neck</option>
+					<option value="08Ccomb">Carving the Comb</option>
+					<option value="09CBeak">Carving the Beak</option>
+					<option value="10Cwattle">Carving the Wattle</option>
+					<option value="11Ctail">Carving the Tail</option>
+					<option value="12curl">Curling the Feathers</option>
+					<option value="13other">Other</option>
+				</select>
+				</label>
+			
+			<label for="comments" class="blockLabel">Question / Comment</label>
+			<textarea id="comments" name="comments" rows="10" cols="50">
+			</textarea>
+         <br />
+         <input type="file" id="fileName" name="fileName"
+		</fieldset>
+		
+<!--		<input type="submit" value="Submit" /> -->
+		<input type="reset" value="Clear" />
+	</form>
+	
+</div>
+
+</div><!-- end right side -->
+</div><!-- end container -->
+
+<div id="footer-spacer"></div>
+
+<div id="foot">
+<hr />
+<center><address>
+   &copy;2010 - Whittling A Rooster: Everything You Need To Know -
+   <a href="#tSide">BACK TO TOP</a>
+</address></center>
+</div><!-- end foot div -->
+</body>
+</html>
